@@ -152,17 +152,29 @@ body {
                 background: transparent;
             }
 /* Content background box */
+
 .background-box {
-    padding: 32% 0%;
+    padding: 48% 0%;
     background-color: var(--cor_secundaria);
     width: 100%;
     left: 0;
-    
 }
-    .background-box > .gambiarra {
-        margin-top: 40em;
+
+    .background-box > .over-box {
+        color: white;
     }
-    
+    /*
+        .background-box > .over-box > .row-box{
+            display: flex;
+            flex-flow: row wrap;
+            position: relative;
+            z-index: 10;
+            width: 90%;
+            margin-left: 8%;
+            margin-top: 0%;
+        }
+*/
+/*Time */    
 .time {
     text-align: center;
     font-size: 25px;
