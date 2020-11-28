@@ -159,7 +159,9 @@ body {
     width: 100%;
     left: 0;
 }
-
+    .background-box > .gambiarra {
+        margin-top: 40em;
+    }
     .background-box > .over-box {
         color: white;
     }
